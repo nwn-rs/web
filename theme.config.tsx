@@ -10,7 +10,10 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg/VChctxJCMM',
   },
-  docsRepositoryBase: 'https://nwn.rs',
+  sidebar: {
+    defaultMenuCollapseLevel: 2,
+  },
+  docsRepositoryBase: 'https://github.com/nwn-rs/web/blob/main/',
   footer: {
     text: 'nwn.rs',
   },

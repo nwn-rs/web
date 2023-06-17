@@ -1,5 +1,8 @@
 {
-  "index": "Introduction",
+  "index": {
+    "title": "Introduction",
+    "display": "hidden"
+  },
   "another": "Another Page",
   "advanced": "Advanced (B Folder)"
 }
