@@ -8,5 +8,11 @@
   },
   "advanced": {
     "title": "Advanced (B Folder)"
+  },
+  "about": {
+    "display": "hidden"
+  },
+  "contact": {
+    "display": "hidden"
   }
 }
