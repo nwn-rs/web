@@ -22,8 +22,8 @@ const config: DocsThemeConfig = {
         MIT {new Date().getFullYear()} {' '}
         <a href="https://nextra.site" target="_blank">
           nwn.rs
-          {process.env.VERCEL_GIT_COMMIT_SHA &&
-            `@${process.env.VERCEL_GIT_COMMIT_SHA.toString().slice(0, 7)}`
+          {process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA &&
+            `@${process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA.toString().slice(0, 7)}`
           }
         </a>
       </span>
