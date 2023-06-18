@@ -3,6 +3,10 @@
     "title": "Introduction",
     "display": "hidden"
   },
-  "another": "Another Page",
-  "advanced": "Advanced (B Folder)"
+  "another": {
+    "title": "Another Page"
+  },
+  "advanced": {
+    "title": "Advanced (B Folder)"
+  }
 }
