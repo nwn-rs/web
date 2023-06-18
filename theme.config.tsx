@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/nwn-rs/web/blob/main/',
   footer: {
-    text: 'nwn.rs',
+    text: 'nwn.rs@' + process.env.VERCEL_GIT_COMMIT_SHA
   },
 }
 
